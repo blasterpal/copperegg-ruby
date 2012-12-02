@@ -8,7 +8,8 @@ require 'uri'
       :apihost => 'https://api.copperegg.com',
       :ssl_verify_peer => false,
       #:ssl_ca_file => File.dirname(__FILE__) + '/../../../conf/cacert.pem',
-      :timeout => 10
+      :timeout => 10,
+      :debug => true
     }
 
 module CopperEgg
